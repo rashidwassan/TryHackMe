@@ -67,3 +67,7 @@ HTTP methods are a way for the client to show their intended action when making 
     - Used to inform the client that there was an error with their request.
 - `500-599 - Server Errors`
     - This is reserved for errors happening on the server-side and usually indicate quite a major problem with the server handling the request.
+
+## Headers
+Headers are additional bits of data you can send to the web server when making requests.
+Although no headers are strictly required when making a HTTP request, you’ll find it difficult to view a website properly.
