@@ -3,3 +3,15 @@
 - DNS (Domain Name System)
 - Allows us to browse web easily without remembering complicated numbers (IP Addresses)
 - So instead of remembering `104.26.10.229`, you can remember `tryhackme.com` instead.
+
+## Domain Hierarchy
+
+### TLD (Top Level Domain)
+- Most righthand part of a domain name i.e facebook`.com`
+- Two Types
+  - **gTLD:** Generic Top Level Domain. This is used to give the idea of the purpose of the domain's name i.e `.edu` for education.
+  - **ccTLD:** Country Code Top Level Domain. Examples: .pk, .in, and .uk.
+
+### Second Level Domain
+- Taking `facebook.com` as an example, the `.com` part is the **TLD**, and `facebook` is the Second Level Domain.
+- When registering a domain name, the second-level domain is limited to 63 characters + the TLD and can only use a-z 0-9 and hyphens (cannot start or end with hyphens or have consecutive hyphens).
