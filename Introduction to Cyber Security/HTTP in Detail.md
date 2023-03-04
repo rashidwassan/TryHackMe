@@ -53,3 +53,17 @@ HTTP methods are a way for the client to show their intended action when making 
 - `POST Request:` Used for submitting data to create new records.
 - `PUT Request:` This is used for submitting data to a web server to update information.
 - `DELETE Request:` This is used for deleting information/records from a web server.
+
+## HTTP Status Codes
+
+
+- `100-199 - Information Response`
+    - These are sent to tell the client the first part of their request has been accepted and they should continue sending the rest of their request. These     codes are no longer very common.
+- `200-299 - Success`
+    - This range of status codes is used to tell the client their request was successful.
+- `300-399 - Redirection`
+    - These are used to redirect the client's request to another resource. This can be either to a different webpage or a different website altogether.
+- `400-499 - Client Errors`
+    - Used to inform the client that there was an error with their request.
+- `500-599 - Server Errors`
+    - This is reserved for errors happening on the server-side and usually indicate quite a major problem with the server handling the request.
